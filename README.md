@@ -62,11 +62,11 @@ Aplica los métodos numéricos con el objeto de solucionar ecuaciones mediante l
 El método de bisección es un algoritmo utilizado para encontrar las raíces de una función en un intervalo dado. Consiste en dividir repetidamente el intervalo a la mitad y seleccionar el subintervalo que contiene la raíz. Este proceso se repite hasta que se alcanza la precisión deseada. Los pasos principales son los siguientes:
 
 <h4> <font font face = "arial">Pasos del Método de Bisección:</h4>
-Inicio del Intervalo: Se elige un intervalo inicial donde se sospecha que se encuentra la raíz.
-Cálculo del Punto Medio: Se calcula el punto medio del intervalo.
-Evaluación de la Función: Se evalúa la función en el punto medio para determinar en qué subintervalo se encuentra la raíz.
-Selección del Nuevo Intervalo: Se selecciona el nuevo intervalo basado en la evaluación de la función en el punto medio.
-Iteración: Se repiten los pasos anteriores hasta que se alcance la precisión deseada, es decir, hasta que el intervalo sea lo suficientemente pequeño.
+<li><h3>Inicio del Intervalo:</h3> Se elige un intervalo inicial donde se sospecha que se encuentra la raíz.</li>
+<li><h3>Cálculo del Punto Medio:</h3> Se calcula el punto medio del intervalo.</li>
+<li><h3>Evaluación de la Función:</h3> Se evalúa la función en el punto medio para determinar en qué subintervalo se encuentra la raíz.</li>
+<li><h3>Selección del Nuevo Intervalo:</h3> Se selecciona el nuevo intervalo basado en la evaluación de la función en el punto medio.</li>
+<li><h3>Iteración:</h3> Se repiten los pasos anteriores hasta que se alcance la precisión deseada, es decir, hasta que el intervalo sea lo suficientemente pequeño.</li>
 
 <h4> <font font face = "arial"> ALGORITMO: </h4>
 Paso 1: Elija valores iniciales inferior, xl, y superior, xu, que encierren la raíz, de tal forma que la función cambie de signo en el intervalo. Esto se verifica comprobando

@@ -70,7 +70,7 @@ El método de bisección es un algoritmo utilizado para encontrar las raíces de
    
    <h4> <font font face = "arial"> REPRESENTACIÓN GRÁFICA </h4>
    
-  ![Imagen de WhatsApp 2024-02-28 a las 22 18 18_c66bb2e7](https://github.com/rubivj13/Metodos_Numericos/assets/147438464/bded96b1-64f6-4520-9fc0-b2dd1b794379)
+  ![Imagen de WhatsApp 2024-02-28 a las 22 18 18_c66bb2e7]((https://algoritmosyalgomas.com/wp-content/uploads/2020/12/biseccion.png))
 
 
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>

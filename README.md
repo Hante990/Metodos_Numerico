@@ -53,14 +53,20 @@ Aplica los métodos numéricos con el objeto de solucionar ecuaciones mediante l
    2.5 Aplicaciones.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<h2 align = "center"> <font  font face = "bauhaus 93"> <a name="Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio </a> </font> </h2>
+<h2 align = "center"> <font  font face = "bauhaus 93">  Métodos nlas raíces de una ecuacion </font> </h2>
 
-<h3 align = "center"> <font font face = "forte"> <a name="Método de Bisección"> 1. Método de Bisección </a> </h3>
+<h3 align = "center"> <font font face = "forte">  1. Bisección </h3>
 
-<h4> <font font face = "arial"> DESCRICIÓN: </h4>
+<h4> <font font face = "arial"> DESCRIPCIÓN: </h4>
 
-El método de bisección, conocido también como de corte binario, de partición de intervalos o de Bolzano, es un tipo de búsqueda incremental en el que el intervalo se divide siempre a la mitad. Si la función cambia de signo sobre un intervalo, se evalúa el valor de la función en el punto medio. La posición de la raíz se determina situándola en el punto medio del subintervalo, dentro del cual ocurre un cambio de signo. El proceso se repite hasta obtener una mejor aproximación.
+El método de bisección es un algoritmo utilizado para encontrar las raíces de una función en un intervalo dado. Consiste en dividir repetidamente el intervalo a la mitad y seleccionar el subintervalo que contiene la raíz. Este proceso se repite hasta que se alcanza la precisión deseada. Los pasos principales son los siguientes:
 
+<h4> <font font face = "arial">Pasos del Método de Bisección:</h4>
+Inicio del Intervalo: Se elige un intervalo inicial donde se sospecha que se encuentra la raíz.
+Cálculo del Punto Medio: Se calcula el punto medio del intervalo.
+Evaluación de la Función: Se evalúa la función en el punto medio para determinar en qué subintervalo se encuentra la raíz.
+Selección del Nuevo Intervalo: Se selecciona el nuevo intervalo basado en la evaluación de la función en el punto medio.
+Iteración: Se repiten los pasos anteriores hasta que se alcance la precisión deseada, es decir, hasta que el intervalo sea lo suficientemente pequeño.
 
 <h4> <font font face = "arial"> ALGORITMO: </h4>
 Paso 1: Elija valores iniciales inferior, xl, y superior, xu, que encierren la raíz, de tal forma que la función cambie de signo en el intervalo. Esto se verifica comprobando

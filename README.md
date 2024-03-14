@@ -4,18 +4,18 @@ Realizado por:
   <li> Antonio Guerrero Lazcano</li>
   <li>Miguel Angel Flores Lopez</li>
   <li>Xavier Valle Dorantes</li>
-<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93">  INDICE </font> </h2>
+<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93">  Indice </font> </h2>
 <header> <font color = "red" size="+1" font face = "aharoni">
                 <nav class="navegacion">
                     <ul class="Indice">
-                       <li> <a href="#Descripción del Problemario"> Descripción del Problemario. </a> <br> </li>
-                        <li> <a href="#SOBRE LA MATERIA"> SOBRE LA MATERIA. </a> <br> </li>
+                       <li> <a href="#Descripción del Problemario"> Descripción del Problemario </a> <br> </li>
+                        <li> <a href="#SOBRE LA MATERIA"> Sobre la materia </a> <br> </li>
                             <ul class="subindice"> 
-                                <li> <a href="#Competencia de la Asignatura"> Competencia de la Asignatura. </a> </li>
-                                <li> <a href="#Competencia del TEMA"> Competencia del TEMA. </a> </li>
-                                <li> <a href="#TEMARIO"> TEMARIO. </a> </li>  
+                                <li> <a href="#Competencia de la Asignatura"> Competencia de la Asignatura </a> </li>
+                                <li> <a href="#Competencia del TEMA"> Competencia del TEMA </a> </li>
+                                <li> <a href="#TEMARIO"> Temario </a> </li>  
                             </ul>
-     <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio. </a> <br> </li>
+     <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Métodos numéricos para encontrar las raíces </a> <br> </li>
                             <ul class="subindice"> 
                                 <li> <a href="#Método de Bisección"> Método de Bisección. </a> </li>
                                 <li> <a href="#Método de la Falsa Posición"> Método de la Falsa Posición. </a> </li>

@@ -1,0 +1,31 @@
+public class MetodoNewton {
+
+    public static double epsilon = 0.0001; 
+
+   
+    public static double funcion(double x) {
+        return 4 + 5 * x;
+    }
+
+    public static double derivada(double x) {
+        return 5;
+    }
+
+    public static double metodoNewton(double xInicial) {
+        double xActual = xInicial;
+        double xSiguiente;
+
+        do {
+            xSiguiente = xActual - funcion(xActual) / derivada(xActual);
+            xActual = xSiguiente;
+        } while (Math.abs(funcion(xActual)) > epsilon);
+
+        return xActual;
+    }
+
+    public static void main(String[] args) {
+        double xInicial = -1.0; // Valor inicial de x
+        double solucion = metodoNewton(xInicial);
+        System.out.println("La solución aproximada es: " + solucion);
+    }
+}

@@ -34,7 +34,7 @@ En este documento vamos a ver varios ejercicios sobre los distintos metodos como
   <li>4.-Newton</li>
   
 # Sobre la materia 
-<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93"> Competencia de la asignatura</font> </h2>
-<li>Aplica los métodos numéricos para resolver problemas científicos y de ingeniería utilizando la computadora</li>
-<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93"> Competencia del tema</font> </h2>
+<h2 align = "center"> <font  size = "+6"  font face = "bauhaus 93"> Competencia de la asignatura</font> </h2>
+Aplica los métodos numéricos para resolver problemas científicos y de ingeniería utilizando la computadora.
+<h2 align = "center"> <font size = "+6"  font face = "bauhaus 93"> Competencia del tema</font> </h2>
 Aplica los métodos numéricos con el objeto de solucionar ecuaciones mediante los métodos de intervalo e interpolación apoyada de un lenguaje de programación.  

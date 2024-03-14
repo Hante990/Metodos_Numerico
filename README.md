@@ -34,7 +34,22 @@ En este documento vamos a ver varios ejercicios sobre los distintos metodos como
   <li>4.-Newton</li>
   
 # Sobre la materia 
-<h2 align = "center">  Competencia de la asignatura </h2>
+<h2 align = "center"> <font  size = "+6" > Competencia de la asignatura</font> </h2>
 Aplica los métodos numéricos para resolver problemas científicos y de ingeniería utilizando la computadora.
 <h2 align = "center"> <font size = "+6"  > Competencia del tema</font> </h2>
 Aplica los métodos numéricos con el objeto de solucionar ecuaciones mediante los métodos de intervalo e interpolación apoyada de un lenguaje de programación.  
+
+
+<h3> <font font face = "forte"> <a name="TEMARIO"> TEMARIO  </a> </h3>
+
+   2.1 Métodos de intervalo. 
+   
+   2.2 Método de bisección.
+   
+   2.3 Método de aproximaciones sucesivas. 
+   
+   2.4 Métodos de interpolación. 
+   
+   2.5 Aplicaciones.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

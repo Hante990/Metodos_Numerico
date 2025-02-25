@@ -81,11 +81,53 @@ public class Biseccion {
 
 ## Método de la Falsa Posición
 **Descripción:**
-El método de la falsa posición es similar al de bisección, pero en lugar de tomar el punto medio, usa interpolación lineal para aproximar la raíz.
+El método de la falsa posición, también conocido como método de la regla falsa o regula falsi, es un algoritmo para encontrar las raíces de una función. A diferencia del método de bisección, que divide el intervalo por la mitad, este utiliza una línea recta para aproximar la función en el intervalo y encontrar la raíz.
+
+**Ejemplo en código (Java):**
+```java
+import java.util.Scanner;
+public class FalsaPosicion {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Ingrese el límite inferior: ");
+        double a = input.nextDouble();
+        System.out.print("Ingrese el límite superior: ");
+        double b = input.nextDouble();
+        System.out.print("Ingrese el error permitido: ");
+        double error = input.nextDouble();
+        double root = falsePosition(a, b, error);
+        System.out.println("Raíz aproximada: " + root);
+    }
+    public static double falsePosition(double a, double b, double error) {
+        double fa = f(a);
+        double fb = f(b);
+        if (fa * fb > 0) {
+            System.out.println("No se puede garantizar la existencia de una raíz en el intervalo dado.");
+            return Double.NaN;
+        }
+        for (int i = 0; i < 100; i++) {
+            double c = (a * fb - b * fa) / (fb - fa);
+            double fc = f(c);
+            if (Math.abs(fc) < error) return c;
+            if (fa * fc < 0) {
+                b = c;
+                fb = fc;
+            } else {
+                a = c;
+                fa = fc;
+            }
+        }
+        return (a * fb - b * fa) / (fb - fa);
+    }
+    public static double f(double x) {
+        return x * x - 4;
+    }
+}
+```
 
 ## Método de la Secante
 **Descripción:**
-El método de la secante es una mejora del método de bisección sin la necesidad de un intervalo.
+El método de la secante es un algoritmo numérico utilizado para encontrar las raíces de una función. Se diferencia de la bisección en que no requiere que la función cambie de signo en el intervalo inicial.
 
 ## Método de Newton-Raphson
 **Descripción:**

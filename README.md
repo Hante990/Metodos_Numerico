@@ -137,4 +137,3 @@ El método de Newton-Raphson es un algoritmo iterativo que usa la derivada para 
 
 ### Realizado por:
 - Diego Alonso Fernández Delagadillo
-- Adriana Jamileth Mendoza Ortiz
